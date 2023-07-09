@@ -1,5 +1,5 @@
 /* Custom styles for the chatbot */
-<style>
+
 #chatbot {
   height: 400px;
   width: 300px;
@@ -86,4 +86,4 @@
 #chatbot .bpw-floating-button {
   box-shadow: none;
 }
-</style>
+
