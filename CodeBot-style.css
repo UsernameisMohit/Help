@@ -1,0 +1,88 @@
+/* Custom styles for the chatbot */
+
+#chatbot {
+  height: 400px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+  background-color: #f8f8f8;
+}
+
+#chatbot .bpw-layout {
+  padding: 10px;
+}
+
+#chatbot .bpw-header-title {
+  color: #fff;
+}
+
+#chatbot .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#chatbot .bpw-header-icon:hover {
+  fill: #fff;
+}
+
+#chatbot .bpw-header-container {
+  border: none;
+  background-color: #007bff;
+  border-radius: 5px 5px 0 0;
+}
+
+#chatbot .bpw-header-title-container .bpw-bot-avatar {
+  display: none;
+}
+
+#chatbot a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+#chatbot a:hover {
+  color: #b5d9ff;
+}
+
+#chatbot .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+
+#chatbot .bpw-send-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#chatbot .bpw-powered {
+  display: none;
+}
+
+#chatbot .bpw-card-action {
+  font-weight: bold;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+#chatbot .bpw-card-container {
+  border: 1px solid #ccc;
+}
+
+#chatbot .bpw-keyboard-quick_reply {
+  background-color: #007bff;
+  padding: 10px;
+}
+
+#chatbot .bpw-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#chatbot .bpw-widget-btn {
+  background-image: none;
+}
+
+#chatbot .bpw-floating-button {
+  box-shadow: none;
+}
