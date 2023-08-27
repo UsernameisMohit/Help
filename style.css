@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+<style>
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+
+      .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 1;
+        z-index: -1;
+      }
+
+      .squares {
+
+        position: relative;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+
+.square {
+ border: 2px solid #074704;
+ display: flex;
+    color: black;
+       border-radius: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #91ff00;
+        
+        justify-content: center;
+    align-items: center;
+
+      }
+      
+      .square:nth-child(1) {
+animation: slideC 4s ease-in-out infinite;
+      }
+
+      .square:nth-child(2) {
+        background-color: #58ed5f;
+animation: slideO 4s ease-in-out infinite;
+}
+
+      .square:nth-child(3) {
+        background-color: #00ff7b;
+ animation: slideD 4s ease-in-out infinite;
+      }
+
+      .square:nth-child(4) {
+        background-color: #00ffaa;
+ animation: slideE 4s ease-in-out infinite;
+ 
+      }
+
+     
+
+@keyframes slideC {
+0% {
+transform: translateX(0) translateY(0);
+ }
+
+40%{
+ transform: translate(160%, -60%);
+      }
+      
+  60% {
+transform: translate(225%, -150%)
+  }    
+    }
+    
+    @keyframes slideO {
+0% {
+transform: translateX(0) translateY(0);
+ }
+
+40%{
+ transform: translate(120%, -60%);
+      }
+      
+  60% {
+transform: translate(70%, -40%);
+  }    
+    }
+    
+    @keyframes slideD {
+0% {
+transform: translate(0,0);
+ }
+ 
+      
+ 40%{
+ transform: translate(-140%, 45%); 
+ }
+ 
+  60%{
+ transform: translate(-80%, 70%); 
+ }
+    }
+    
+    @keyframes slideE {
+0% {
+transform: translate(0,0);
+ }
+ 
+      
+ 40%{
+ transform: translate(-175%, 45%); 
+ }
+ 
+  60%{
+ transform: translate(-228%, 175%); 
+ }
+ 
+    }
+      
+      .disppear{
+
+  animation:vanish 5s forwards;
+
+}
+
+@keyframes vanish {
+
+    100%{
+
+     opacity:0;
+
+     visibility:hidden;
+
+    }
+
+  }
